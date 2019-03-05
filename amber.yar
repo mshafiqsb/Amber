@@ -1,4 +1,3 @@
-
 import "pe"
 
 rule Amber_Reflective_PE_Packer {
@@ -17,4 +16,3 @@ rule Amber_Reflective_PE_Packer {
 		($s and $s1 and $s2) and (pe.number_of_sections < 17 and pe.number_of_sections > 6)
 
 }
-
